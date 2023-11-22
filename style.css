@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@700&family=Poppins:wght@400;700;300&family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+.main {
+  background-image: url("assets/images/bg.jpg");
+  height: 75vh;
+  position: relative;
+  background-position: center center;
+  background-size: max(100vw, 1300px);
+  background-repeat: no-repeat;
+}
+
+.main .box {
+  height: 75vh;
+  width: 100%;
+  opacity: 0.72;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+.nav {
+  position: relative;
+  height: 15%;
+  max-width: 65vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav img {
+  /* background-color: yellow; */
+  width: 118px;
+  z-index: -1;
+  position: relative;
+  z-index: 1;
+}
+
+.nav button {
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.hero {
+  font-family: "Familjen Grotesk", sans-serif;
+
+  /* font-family: 'Roboto', sans-serif; */
+  height:calc(100% - 84px);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  gap: 15px;
+  padding: 0 30px;
+}
+
+.hero > :nth-child(1) {
+  font-weight: bolder;
+  font-size: 48px;
+  /* z-index: 1; */
+ text-align: center;
+}
+.hero > :nth-child(2) {
+  font-weight: 500;
+  font-size: 24px;
+  /* z-index: 1; */
+  text-align: center;
+}
+
+.hero > :nth-child(3) {
+  font-weight: 400;
+  font-size: 24px;
+  /* z-index: 1; */
+  text-align: center;
+}
+
+.separation{
+
+  height: 11px;
+  background-color: rgb(78, 78, 78);
+}
+
+.btn{
+  padding: 3px 8px;
+  font-weight: bold;
+  background-color:transparent;
+  color: white;
+}
+
+.btn-red{
+  background-color: red;
+  color: white;
+  padding: 15px 40px;
+  font-size: 22px;
+  border-radius: 5px;
+}
+
+.hero-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.main input{
+  padding: 18px 200px 18px 13px;
+  font-weight: 900;
+  font-size: 14px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(23,23,23,0.7);
+  border: 1px solid rgba(246,238,238,0.7 );
+}
+.btn-sn {
+  background-color:red;
+  color: white;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+}
+
+.secImg{
+  position: relative;
+}
+.secImg img{
+  width: 30vw;
+  position: relative;
+  z-index: 10;
+}
+
+.secImg video{
+  position: absolute;  
+  top: 51px;
+  right: 0;
+}
+
+.first > div:first-child{
+  font-size: 4;
+}
